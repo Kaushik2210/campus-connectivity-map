@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+data/readings.db
+*.pyc
+.streamlit/secrets.toml
+.claude/
+/campus-connectivity-map/

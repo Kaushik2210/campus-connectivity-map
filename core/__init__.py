@@ -1,0 +1,1 @@
+"""CampusConnectivity Map core package."""

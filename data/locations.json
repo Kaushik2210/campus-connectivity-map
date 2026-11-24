@@ -1,0 +1,64 @@
+{
+  "campus": "Christ University, Bengaluru",
+  "_note": "Editable. 'blocks[].floors' maps floor number (0 = ground) to the area types that exist on that floor. Block, network and device names are placeholders: edit them to match the real campus.",
+  "area_types": ["classroom", "library", "canteen", "hostel", "ground"],
+  "networks": ["Campus-WiFi", "Student-WiFi", "Hostel-WiFi", "Guest-WiFi"],
+  "devices": ["Android phone", "iPhone", "Laptop (Windows)", "Laptop (Mac)", "Tablet", "Other"],
+  "blocks": [
+    {
+      "name": "Main Block",
+      "floors": {
+        "0": ["ground", "classroom"],
+        "1": ["classroom"],
+        "2": ["classroom"],
+        "3": ["classroom"],
+        "4": ["classroom"]
+      }
+    },
+    {
+      "name": "Block 2",
+      "floors": {
+        "0": ["ground", "classroom"],
+        "1": ["classroom"],
+        "2": ["classroom"],
+        "3": ["classroom"]
+      }
+    },
+    {
+      "name": "Library Block",
+      "floors": {
+        "0": ["library", "ground"],
+        "1": ["library"],
+        "2": ["library"],
+        "3": ["library"]
+      }
+    },
+    {
+      "name": "Science Block",
+      "floors": {
+        "0": ["ground", "classroom"],
+        "1": ["classroom"],
+        "2": ["classroom"],
+        "3": ["classroom"]
+      }
+    },
+    {
+      "name": "Food Court",
+      "floors": {
+        "0": ["canteen", "ground"],
+        "1": ["canteen"]
+      }
+    },
+    {
+      "name": "Hostel Block",
+      "floors": {
+        "0": ["hostel", "ground"],
+        "1": ["hostel"],
+        "2": ["hostel"],
+        "3": ["hostel"],
+        "4": ["hostel"],
+        "5": ["hostel"]
+      }
+    }
+  ]
+}
