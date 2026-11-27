@@ -1,9 +1,7 @@
 streamlit==1.58.0
 pandas==3.0.3
-numpy==2.2.6
 plotly==7.1.0
 SQLAlchemy==2.0.50
 PyMySQL==1.2.4
 segno==1.6.6
 cryptography==50.0.2
-pytest==9.1.1

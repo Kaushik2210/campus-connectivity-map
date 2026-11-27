@@ -15,7 +15,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Python 3.11+ is required. The first run creates `data/readings.db` and fills it with ~1,500 **synthetic** readings (`method = "seeded"`) so every page has something to show. Run the tests with `python -m pytest`.
+Python 3.11+ is required. The first run creates `data/readings.db` and fills it with ~1,500 **synthetic** readings (`method = "seeded"`) so every page has something to show. Run the tests with `pip install -r requirements-dev.txt` and then `python -m pytest`.
 
 Useful switches:
 
