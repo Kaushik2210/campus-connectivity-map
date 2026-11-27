@@ -2,6 +2,10 @@
 
 A crowdsourced Wi-Fi quality tracker for Christ University, Bengaluru. Students submit a quick speed and signal reading from where they are sitting. The app turns those readings into heatmaps, flags dead zones and peak congestion hours, and ranks where the administration should fix Wi-Fi first.
 
+**Live app:** https://campus-connectivity-map-christ.streamlit.app/
+
+The live version runs on demo data and may take a minute to wake up if nobody has used it for a while. Readings submitted there can be reset when the host restarts the app (see "Deploying online" below).
+
 > **Screenshots:** _add images to `docs/` and link them here (home, heatmap, peak hours, dead zones, admin one-pager)._
 
 ## Run it
